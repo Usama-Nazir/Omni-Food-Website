@@ -1,0 +1,58 @@
+.footer{
+    width: 100%;
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+    text-align: center;
+
+    &__pages{
+        width: 90%;
+        margin: 0 auto; 
+        display: flex;
+
+    }
+    &__nav{
+        width: 80%;
+        
+    }
+    &__icon{
+        width: 20%;
+    }
+    &__links:hover{
+        color: $white;
+    }
+    &__list{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+
+    }
+    &__links{
+        text-decoration: none;
+        color: rgb(173, 165, 165);
+        // font-size: 1rem;
+
+    }
+    &__links--media{
+        font-size: 1.2rem;
+        transition: all .2s ease 0s;
+    }
+    &__list .fa-facebook-f:hover{
+        color: rgb(68, 68, 247);
+    }
+    &__list .fa-twitter:hover{
+        color: aqua;
+    }
+    &__list .fa-google-plus-g:hover{
+        color: orangered;
+    }
+    &__list .fa-instagram:hover{
+        color: purple;
+    }
+
+    &__credit{
+        margin-top: 50px;
+        color:  rgb(173, 165, 165);
+
+    }
+}

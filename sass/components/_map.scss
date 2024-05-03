@@ -1,0 +1,78 @@
+.form-box{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    background-color: rgba($color: #ffffff, $alpha: .8);
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+.form-heading{
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+
+    &__heading{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: $grey;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+
+        &::after{
+            content: "";
+            display: block;
+            margin: 30px auto;
+            width: 80px;
+            height: 1px;
+            background-color: $camal;
+        }
+    }
+}
+.form{
+    width: 90%;
+    margin: 0 auto;
+
+    &__name-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+    &__lable{
+        width: 40%;
+        padding: 10px;
+        color: $grey;
+        font-weight: 300;
+    }
+    &__input{
+        width: 270px;
+        padding: 7px;
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    &__friends{
+        width: 270px;
+        padding: 7px;
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    &__check{
+        width: 270px;
+    }
+    &__button{
+        width: 270px;
+    }
+    &__btn{
+        width: 100px;
+        border: none;
+        outline: none;
+        color: $white;
+        background-color: $camal;
+        padding: 10px;
+        border-radius: 50px;
+    }
+}

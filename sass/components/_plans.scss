@@ -1,0 +1,95 @@
+.title{
+    width: 100%;
+    text-align: center;
+
+    &__heading{
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: $grey;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+        font-weight: 300;
+
+        &::after{
+            content: "";
+            width: 100px;
+            height: 2px;
+            margin: 12px auto;
+            display: block;
+            background-color: $camal;
+
+        }
+    }
+}
+.cards{
+    width: 280px;
+    background-color: $white;
+    margin-top: 5rem;
+    box-shadow: 1px 34px 30px #b1afaf17;
+    border-radius: 10px;
+
+    &__box{
+        width: 100%;
+        padding: 20px;
+        border-bottom: 1px solid lightgray;
+    }
+    &__heading{
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        color: $grey;
+        font-weight: 300;
+    }
+    &__price{
+        font-size: 3rem;
+        font-weight: 100;
+        color: $camal;
+    }
+    &__span{
+        font-size: 1.3rem;
+    }
+    &__tagline{
+        font-size: 1.1rem;
+        color: $grey;
+        font-weight: 100;
+    }
+    &__offer{
+        padding: 20px;
+        border-bottom: 1px solid lightgray;
+    }
+    &__list{
+        font-size: 1rem;
+        color: $grey;
+        font-weight: 100;
+    }
+    &__items{
+        list-style: none;
+    }
+    &__icon{
+        color: $camal;
+        font-size: .7rem;
+        margin: 20px 15px 0 0;
+    }
+    &__button{
+        text-align: center;
+        padding: 30px;
+        
+    }
+    &__btn{
+        text-decoration: none;
+        background-color: $camal;
+        padding: 10px 30px;
+        color: $white;
+        border-radius: 50px;
+        transition: all .3s ease 0s;
+
+        &:hover{
+            color: $white;
+            background-color:  #ec7003;
+        }
+    }
+    &__btn--transparent{
+        background-color: transparent;
+        border: 1px solid $camal;
+        color: $camal;
+    }
+}
